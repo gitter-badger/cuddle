@@ -8,14 +8,14 @@
   };
 
   function telephoneAdd( phoneAdd ) {
-      var teste = 1;
-      var telephone = JSON.parse('[' + phoneAdd + ']')
+      var telephone = phoneAdd.split("");
       for( var i = 0; i < telephone.length;) {
         console.log(i);
-        console.log(telephone);
-        teste++;
+        console.log(telephone[i]);
         i++;
       }
   }
-  console.log(telephoneAdd(1234567890))
+  console.log(telephoneAdd('888888'));
+
+
 })();
