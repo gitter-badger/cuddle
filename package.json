@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/meche/cuddle/issues"
   },
-  "homepage": "https://github.com/meche/cuddle#readme"
+  "homepage": "https://github.com/meche/cuddle#readme",
+  "devDependencies": {
+    "angular": "^1.5.1",
+    "angular-route": "^1.5.1",
+    "gulp": "^3.9.1"
+  }
 }
